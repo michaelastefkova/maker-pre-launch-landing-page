@@ -1,0 +1,265 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+
+.logo--container {
+  justify-content: left;
+  padding: 0 56px;
+}
+
+.mob--hero-container {
+  display: none;
+}
+
+.main {
+  min-width: 756px;
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.hero--text-container {
+  margin: 0 auto;
+  max-width: 420px;
+  background-image: url(../assets/bg-hero-squiggle.svg);
+  background-size: cover;
+}
+
+.hero {
+  position: relative;
+  background-size: cover;
+}
+
+.hero--draw-left {
+  display: block;
+  position: absolute;
+  left: -200px;
+  min-height: 314px;
+  min-width: 356px;
+  background-image: url(../assets/illustration-hero-left.svg);
+  background-size: cover;
+}
+
+.hero--draw-right {
+  display: block;
+  position: absolute;
+  right: -200px;
+  min-height: 314px;
+  min-width: 356px;
+  background-image: url(../assets/illustration-hero-right.svg);
+  background-size: cover;
+}
+
+.hero--title {
+  margin: 32px auto;
+  max-width: 420px;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.hero--title span {
+  color: var(--cyan);
+}
+
+.hero--text {
+  margin: 0 auto;
+  max-width: 420px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+/* Features Cards */
+
+.features--cards-container .f--card {
+  margin: 42px 0 0 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.f--card .f--card-description {
+  text-align: left;
+  height: 100%;
+  margin: 0 0 0 48px;
+}
+
+.t--1 {
+  margin-left: 64px;
+}
+
+.f--card .t--2 {
+  margin-right: 64px;
+}
+
+.f--card .f--card-description > h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.f--card .f--card-description > p {
+  max-width: 300px;
+  margin: 8px 0 0 0;
+  font-size: 0.9rem;
+}
+
+.pricing--container {
+  margin: 72px 0 0 0;
+}
+
+.pricing--container > h2 {
+  font-size: 1.8rem;
+}
+
+.pricing--container > p {
+  max-width: 440px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.p--card {
+  position: relative;
+  width: 420px;
+  max-width: 440px;
+}
+
+.p-card1 {
+  background-color: var(--blue);
+  margin: 64px 0 0 0;
+}
+
+.p-card2 {
+  background-color: var(--cyan);
+  color: var(--blue);
+  margin: 64px 0 64px 0;
+}
+
+.p--icon1 {
+  position: absolute;
+  top: -22px;
+}
+
+.p--icon2 {
+  position: absolute;
+  top: -32px;
+}
+
+.p--card-title {
+  margin: 32px 0 0 0;
+  font-size: 1.4rem;
+}
+
+.p--card-description {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.p--plan {
+  font-size: 2.2rem;
+}
+
+.p--plan span {
+  font-size: 0.9rem;
+}
+
+.p--list li {
+  margin: 8px;
+  font-size: 0.9rem;
+}
+
+.mob--form-container {
+  display: none;
+}
+
+/* Form styles */
+
+.form--container {
+  width: 100%;
+  margin: 64px 0 64px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form--title {
+  width: 100%;
+  background-image: url(../assets/bg-footer-squiggle.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+}
+
+.form--title > h2 {
+  margin: 0 auto;
+  max-width: 220px;
+  font-size: 1.4rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 480px;
+  margin: 32px 0 0 0;
+}
+
+.form .formx {
+  width: 100%;
+}
+
+.form .formx > input {
+  height: 48px;
+  max-height: 48px;
+  width: 60%;
+  background-color: var(--blue);
+  border: none;
+  border-radius: 48px;
+  outline: none;
+  padding: 0 24px;
+  color: var(--white);
+}
+
+.form .formx > input::placeholder {
+  color: var(--grey);
+  font-weight: 700;
+  font-family: var(--font);
+}
+
+.form .formx > button {
+  margin: 0px 0 0 24px;
+  height: 48px;
+  max-height: 48px;
+  width: 30%;
+  background-color: var(--cyan);
+  border: none;
+  border-radius: 48px;
+  outline: none;
+  padding: 0 24px;
+  font-family: var(--font);
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.form .formx > button:hover {
+  background-color: var(--black);
+  border: solid 2px var(--cyan);
+  color: var(--cyan);
+}
+
+.warn {
+  visibility: hidden;
+  max-width: 320px;
+  margin: 12px 0 0 32px;
+  text-align: left;
+  font-size: 0.7rem;
+  color: var(--red);
+}
+
+/* Form styles ENDS */
