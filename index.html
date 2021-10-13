@@ -3,246 +3,150 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <!-- Font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Styles -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <link
-      rel="stylesheet"
-      href="./styles/tablet.css"
-      media="screen and (min-width: 768px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./styles/desktop.css"
-      media="screen and (min-width: 1200px)"
-    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/tablet.css" />
+    <link rel="stylesheet" href="style/mobile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
 
-    <title>Frontend Mentor | Maker pre-launch landing page</title>
+    <title>Maker pre-launch landing page Alain-sys</title>
   </head>
   <body>
-    <header class="logo--container">
-      <div class="logo">
-        <img src="./assets/logo.svg" alt="" />
-      </div>
+    <!-- Header -->
+    <header>
+      <img src="assets/logo.svg" class="logo" alt="" />
     </header>
-    <main class="main">
-      <!-- Hero -->
-      <div class="mob--hero-container"></div>
+    <main>
+      <img src="assets/illustration-hero-mobile.png" class="img-mobile" alt="" />
+      <!-- Hero  -->
       <section class="hero">
-        <div class="hero--draw-left"> </div>
-        <div class="hero--draw-right"> </div>
-        <div class="hero--text-container">
-
-          <h1 class="hero--title">
-            Get paid for the work you <span>love</span> to do.
-          </h1>
-          <p class="hero--text">
-            The 9-5 grind is so last century. We believe in living life on your
-            own terms. Whether you’re looking to escape the rat race or set up a
+        <img src="assets/illustration-hero-left.svg" class="img-hero-left" alt="" />
+        <img src="assets/bg-hero-squiggle.svg" class="img-hero-middle" alt=" background" />
+        <div class="presentation-hero">
+          <h1>Get paid for the work you <span class="span-color">love </span>to do.</h1>
+          <p class="content-hero">
+            The 9-5 grind is so last century. We believe in living life on your own terms. Whether you’re looking to escape the rat race or set up a
             side hustle, we’ve got you covered.
           </p>
+          <img src="assets/icon-scroll.svg" alt="" />
         </div>
-        <div class="hero--ornament-container">
-          <img class="hero--ornament" src="./assets/icon-scroll.svg" alt="" />
-        </div>
-        <!-- Hero ENDS -->
+        <img src="assets/illustration-hero-right.svg" class="img-hero-right" alt="" />
       </section>
-      <!-- Features Cards -->
-      <div class="features--cards-container">
-        <!-- Card1 -->
-        <div class="f--card ">
-          <div class="f--card-icon t--1">
-            <img
-              class="f--icon1 "
-              src="./assets/illustration-passions.svg"
-              alt=""
-            />
-          </div>
-          <div class="f--card-description ">
-            <h3>Indulge your passions</h3>
-            <p>
-              Your passions shouldn't be just for the weekend. Earn a living
-              doing what you love.
-            </p>
+      <!-- Middle section  -->
+      <section class="section-middle-content">
+        <div class="first-box-middle margin-box-middle">
+          <img src="assets/illustration-passions.svg" class="img-box-start" alt="" />
+          <div class="text-content-box">
+            <h4>Indulge your passions</h4>
+            <p class="paragraph-box-middle">Your passions shouldn't be just for the weekend. Earn a living doing what you love.</p>
           </div>
         </div>
-        <!-- Card2 -->
-        <div class="f--card f--2">
-          <div class="f--card-icon">
-            <img
-              class="f--icon2"
-              src="./assets/illustration-financial-freedom.svg"
-              alt=""
-            />
-          </div>
-          <div class="f--card-description t--2">
-            <h3>Gain financial freedom</h3>
-            <p>
-              Start making money work for you. There’s nothing quite like
-              earning while you sleep.
-            </p>
+        <div class="second-box-middle margin-box-middle margin-box1-middle-tablet">
+          <img src="assets/illustration-financial-freedom.svg" class="img-box-middle-left" alt="" />
+          <div class="text-content-box">
+            <h4>Gain financial freedom</h4>
+            <p class="paragraph-box-middle">Start making money work for you. There’s nothing quite like earning while you sleep.</p>
           </div>
         </div>
-        <!-- Card3 -->
-        <div class="f--card ">
-          <div class="f--card-icon t--1">
-            <img
-              class="f--icon3"
-              src="./assets/illustration-lifestyle.svg"
-              alt=""
-            />
-          </div>
-          <div class="f--card-description ">
-            <h3>Choose your lifestyle</h3>
-            <p>
-              Own your daily schedule. Fancy a lie-in? Go for it! Take charge of
-              your week.
-            </p>
+        <div class="first-box-middle margin-box-middle margin-box2-middle-tablet">
+          <img src="assets/illustration-lifestyle.svg" class="img-box-middle-right" alt="" />
+          <div class="text-content-box">
+            <h4>Choose your lifestyle</h4>
+            <p class="paragraph-box-middle">Own your daily schedule. Fancy a lie-in? Go for it! Take charge of your week.</p>
           </div>
         </div>
-        <!-- Card4 -->
-        <div class="f--card f--2">
-          <div class="f--card-icon">
-            <img
-              class="f--icon4"
-              src="./assets/illustration-work-anywhere.svg"
-              alt=""
-            />
-          </div>
-          <div class="f--card-description t--2">
-            <h3>Work from anywhere</h3>
-            <p>
-              Selling online means not being pinned down. Want to work AND
-              travel? Go for it!
-            </p>
+        <div class="second-box-middle">
+          <img src="assets/illustration-work-anywhere.svg" class="img-box-end" alt="" />
+          <div class="text-content-box">
+            <h4>Work from anywhere</h4>
+            <p class="paragraph-box-middle">Selling online means not being pinned down. Want to work AND travel? Go for it!</p>
           </div>
         </div>
-      </div>
-      <!-- Features Cards ENDS -->
-      <!-- Pricing Plans -->
-      <div class="pricing--container">
-        <h2>Our pricing plans</h2>
-        <p>
-          We only make money when our creators make money. Our plans are always
-          affordable, and it’s completely free to get started.
-        </p>
-        <!-- Pricing Card 1 -->
-        <div class="p--card-container">
-          <div class="p--card p-card1">
-            <div class="p--icon1">
-              <img src="./assets/icon-free.svg" alt="" />
+      </section>
+
+      <!-- Price section -->
+      <section class="price-container">
+        <div class="content-price-container">
+          <h3>Our pricing plans</h3>
+          <p>We only make money when our creators make money. Our plans are always affordable, and it’s completely free to get started.</p>
+        </div>
+        <!-- Box price container -->
+        <div class="box-price-container">
+          <!-- First box price -->
+          <div class="start-box-price">
+            <img src="assets/icon-free.svg" class="start-box-icon" alt="" />
+            <div class="start-box-content">
+              <h5>Dip your toe</h5>
+              <p>Just getting started? No problem at all! Our free plan will take you a long way.</p>
             </div>
-            <p class="p--card-title">Dip your toe</p>
-            <p class="p--card-description">
-              Just getting started? No problem at all! Our free plan will take
-              you a long way.
-            </p>
-            <p class="p--plan">Free</p>
-            <ul class="p--list">
-              <li>
-                <span>
-                  <img src="./assets/icon-check-cyan.svg" alt="" />
-                </span>
-                Unlimited products
-              </li>
-              <li>
-                <span>
-                  <img src="./assets/icon-check-cyan.svg" alt="" />
-                </span>
-                Basic analytics
-              </li>
-              <li>
-                <span>
-                  <img src="./assets/icon-check-cyan.svg" alt="" />
-                </span>
-                Limited marketplace exposure
-              </li>
-              <li>
-                <span>
-                  <img src="./assets/icon-check-cyan.svg" alt="" />
-                </span>
-                10% fee per transaction
-              </li>
-            </ul>
+            <div class="options-start-box">
+              <h2>Free</h2>
+              <div class="options-content">
+                <img src="assets/icon-check-cyan.svg" alt="" />
+                <p>Unlimited products</p>
+              </div>
+              <div class="options-content">
+                <img src="assets/icon-check-cyan.svg" alt="" />
+                <p>Basic analytics</p>
+              </div>
+              <div class="options-content">
+                <img src="assets/icon-check-cyan.svg" alt="" />
+                <p>Limited marketplace exposure</p>
+              </div>
+              <div class="options-content">
+                <img src="assets/icon-check-cyan.svg" alt="" />
+                <p>10% fee per transaction</p>
+              </div>
+            </div>
           </div>
-        <!-- Pricing Card 2 -->
-        <div class="p--card p-card2">
-          <div class="p--icon2">
-            <img src="./assets/icon-paid.svg" alt="" />
+          <!-- Second box price -->
+          <div class="end-box-price">
+            <img src="assets/icon-paid.svg" class="end-box-icon" alt="" />
+            <div class="end-box-content">
+              <h5 class="title-end-box">Dive right in</h5>
+              <p class="paragraph-end-box">Ready for the big time? Our paid plan will help you take your business to the next level.</p>
+            </div>
+            <div class="options-end-box">
+              <div class="title-price-end-box">
+                <h2 class="title-end-box">$25.00</h2>
+                <p class="paragraph-end-box">/ month</p>
+              </div>
+              <div class="end-options-content">
+                <img src="assets/icon-check.svg" alt="" />
+                <p class="paragraph-end-box">Custom domain</p>
+              </div>
+              <div class="end-options-content">
+                <img src="assets/icon-check.svg" alt="" />
+                <p class="paragraph-end-box">Advanced analytics and reports</p>
+              </div>
+              <div class="end-options-content">
+                <img src="assets/icon-check.svg" alt="" />
+                <p class="paragraph-end-box">High marketplace visibility</p>
+              </div>
+              <div class="end-options-content">
+                <img src="assets/icon-check.svg" alt="" />
+                <p class="paragraph-end-box">High marketplace visibility</p>
+              </div>
+            </div>
           </div>
-          <p class="p--card-title">Dive right in</p>
-          <p class="p--card-description">
-            Ready for the big time? Our paid plan will help you take your
-            business to the next level.
-          </p>
-          <p class="p--plan">$25.00 <span>/month</span></p>
-          <ul class="p--list">
-            <li>
-              <span>
-                <img src="./assets/icon-check.svg" alt="" />
-              </span>
-              Custom domain
-            </li>
-            <li>
-              <span>
-                <img src="./assets/icon-check.svg" alt="" />
-              </span>
-              Advanced analytics and reports
-            </li>
-            <li>
-              <span>
-                <img src="./assets/icon-check.svg" alt="" />
-              </span>
-              High marketplace visibility
-            </li>
-            <li>
-              <span>
-                <img src="./assets/icon-check.svg" alt="" />
-              </span>
-              5% fee per transaction
-            </li>
-          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <img src="assets/bg-footer-squiggle.svg" alt="" />
+      <div class="footer-content">
+        <h3>Get notified when we launch</h3>
+        <div class="box-footer-form">
+          <form class="footer-form" novalidate>
+            <input type="email" class="inputForm" placeholder="Email address" required aria-label="input email" />
+            <button class="buttonFormFooter" aria-label="submit email">Get notified</button>
+          </form>
+          <p class="error">Oops! That doesn't look like an email address</p>
         </div>
       </div>
-      <!-- Pricing Plans ENDS -->
-      <!-- Mobile Form -->
-      <footer class="mob--form-container">
-        <div class="mob--form-title">
-          <h2>Get notified when we launch</h2>
-        </div>
-        <form class="mob--form" action="./index.html" onsubmit="event.preventDefault()">
-          <input id="mob-input" type="email" aria-label="input" placeholder="Email address">
-          <p id="mob-warn" class="mob-warn">Oops! That doesn’t look like an email address</p>
-          <button onclick="validateMob()" id="mob-button">Get notified</button>
-        </form>
-      </footer>
-      <!-- Mobile Form ENDS -->
-      <!-- Form -->
-      <footer class="form--container">
-        <div class="form--title">
-          <h2>Get notified when we launch</h2>
-        </div>
-        <form class="form" action="./index.html" onsubmit="event.preventDefault()">
-          <div class="formx">
-            <input id="input" type="email" aria-label="input" placeholder="Email address">
-            <button onclick="validate()" id="button">Get notified</button>
-          </div>
-          <p id="warn" class="warn">Oops! That doesn’t look like an email address</p>
-        </form>
-      </footer>
-      <!-- Form ENDS -->
-    </main>
-    <script src="./scripts.js"></script>
+    </footer>
+    <script src="scripts/index.js"></script>
   </body>
-</html>
+</html>     
