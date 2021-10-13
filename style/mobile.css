@@ -1,0 +1,139 @@
+@media all and (max-width: 375px) {
+  h1 {
+    width: 70%;
+  }
+
+  /****Header****/
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  .logo {
+    margin: 2.5rem 0 4.125rem 0rem;
+  }
+  /****Content between header & hero****/
+  .img-mobile {
+    display: flex;
+    min-height: 233px;
+    width: 410px;
+  }
+
+  /****Hero****/
+  .hero {
+    margin-top: 3rem;
+  }
+
+  .img-hero-left {
+    display: none;
+  }
+
+  .img-hero-middle {
+    display: none;
+  }
+
+  .img-hero-right {
+    display: none;
+  }
+  .presentation-hero {
+    margin: 3.187rem 0.625rem 0 0.625rem;
+  }
+
+  .content-hero {
+    width: 95%;
+    margin: 1.43rem 0 2rem 0;
+  }
+
+  /****Middle Section****/
+  .section-middle-content {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
+  .first-box-middle,
+  .second-box-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .margin-box1-middle-tablet {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .margin-box2-middle-tablet {
+    margin-bottom: 3.5rem;
+  }
+
+  .text-content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .paragraph-box-middle {
+    text-align: center;
+  }
+
+  /**** Price section ****/
+  .content-price-container {
+    margin: 0 1.5rem 4.937rem 1.5rem;
+  }
+
+  .content-price-container > h3 {
+    font-size: 1.5rem;
+  }
+
+  .content-price-container > p {
+    margin-top: 1.68rem;
+  }
+
+  .box-price-container {
+    margin: 0 1.5rem 0 1.5rem;
+  }
+  /*start box price*/
+  .start-box-content {
+    margin: 3.06rem 1.81rem 1.625rem 1.81rem;
+  }
+
+  .options-start-box {
+    margin: 0 1.81rem 2rem 1.81rem;
+  }
+  /*end box price*/
+  .end-box-price {
+    margin-left: 0;
+    margin-top: 4.06rem;
+  }
+
+  .end-box-content {
+    margin: 3.81rem 1.81rem 1.625rem 1.81rem;
+  }
+
+  .options-end-box {
+    margin: 0 1.81rem 2rem 1.81rem;
+  }
+
+  /****Footer****/
+  footer {
+    position: relative;
+    margin: 9rem 0 10.25rem 0;
+  }
+
+  footer > img {
+    min-height: 80px;
+    width: 584px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .footer-content {
+    padding-top: 0rem;
+  }
+
+  .footer-content > h3 {
+    margin: 0 1.468rem 1.937rem 1.468rem;
+    font-size: 1.5rem;
+  }
+}
